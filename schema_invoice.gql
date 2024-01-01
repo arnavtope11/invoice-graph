@@ -1,0 +1,21 @@
+define
+
+    includes sub relation,
+        relates main_item,
+        relates sub_item;
+
+    invoice sub entity,
+        plays main_item;
+
+    attrib sub entity,
+        plays sub_item,
+        plays main_item,
+        has name,
+        has value;
+    
+    name sub attribute,
+	  value string;
+
+    value sub attribute,
+	  value string;
+    

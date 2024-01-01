@@ -1,0 +1,804 @@
+{
+    "parent_folder_id" : "601108759bf07f6922add65f",
+    "user_id" : "sonu.kumar",
+    "folder_name" : "Invoice",
+    "file_name" : "11.jpg",
+    "file_full_path" : "Invoice/11.jpg",
+    "predict_output" : {
+        "11.jpg" : {
+            "entities" : {
+                "bill_to" : {
+                    "score" : 0.999033331871033,
+                    "coord" : [ 
+                        212, 
+                        189, 
+                        359, 
+                        425
+                    ],
+                    "text" : "Navistar, Inc Navistar, Inc Box 59009 Supplier 04126AX Knoxville, TN 37950-9009 USA",
+                    "top_xy" : [ 
+                        242, 
+                        198
+                    ],
+                    "bottom_xy" : [ 
+                        124, 
+                        132
+                    ]
+                },
+                "ship_to" : {
+                    "score" : 0.997780859470367,
+                    "coord" : [ 
+                        214, 
+                        548, 
+                        329, 
+                        761
+                    ],
+                    "text" : "Navistar, Inc Express Packaging 1155-A Harvester Road West Chicago, IL 60185 USA",
+                    "top_xy" : [ 
+                        239, 
+                        545
+                    ],
+                    "bottom_xy" : [ 
+                        105, 
+                        119
+                    ]
+                },
+                "po_number" : {
+                    "score" : 0.992471814155579,
+                    "coord" : [ 
+                        474, 
+                        244, 
+                        491, 
+                        335
+                    ],
+                    "text" : "303588258",
+                    "top_xy" : [ 
+                        471, 
+                        245
+                    ],
+                    "bottom_xy" : [ 
+                        12, 
+                        85
+                    ]
+                },
+                "vendor_name" : {
+                    "score" : 0.946635007858276,
+                    "coord" : [ 
+                        20, 
+                        363, 
+                        42, 
+                        490
+                    ],
+                    "text" : "ALMCO Steel Products",
+                    "top_xy" : [ 
+                        25, 
+                        370
+                    ],
+                    "bottom_xy" : [ 
+                        11, 
+                        114
+                    ]
+                },
+                "invoice_date" : {
+                    "score" : 0.991766631603241,
+                    "coord" : [ 
+                        164, 
+                        641, 
+                        197, 
+                        851
+                    ],
+                    "text" : "10 17 19",
+                    "top_xy" : [ 
+                        170, 
+                        718
+                    ],
+                    "bottom_xy" : [ 
+                        -55, 
+                        187
+                    ]
+                },
+                "total_amount" : {
+                    "score" : 0.989428818225861,
+                    "coord" : [ 
+                        843, 
+                        701, 
+                        862, 
+                        847
+                    ],
+                    "text" : "3,602 71",
+                    "top_xy" : [ 
+                        844, 
+                        710
+                    ],
+                    "bottom_xy" : [ 
+                        6, 
+                        140
+                    ]
+                },
+                "vendor_address" : {
+                    "score" : 0.989309310913086,
+                    "coord" : [ 
+                        29, 
+                        363, 
+                        99, 
+                        491
+                    ],
+                    "text" : "ALMCO Steel Products 59 N Oak Street Bluffton, IN 46714-1499 Tel 260 824-1118 Fax 260 824-5472",
+                    "top_xy" : [ 
+                        25, 
+                        370
+                    ],
+                    "bottom_xy" : [ 
+                        55, 
+                        125
+                    ]
+                },
+                "invoice_number" : {
+                    "score" : 0.980922758579254,
+                    "coord" : [ 
+                        168, 
+                        188, 
+                        194, 
+                        351
+                    ],
+                    "text" : "31880",
+                    "top_xy" : [ 
+                        171, 
+                        261
+                    ],
+                    "bottom_xy" : [ 
+                        -55, 
+                        150
+                    ]
+                }
+            },
+            "line_items_header" : {
+                "1 1" : {
+                    "row_id" : 1,
+                    "column_id" : 1,
+                    "score" : 99,
+                    "coord" : [ 
+                        501, 
+                        196, 
+                        533, 
+                        264
+                    ],
+                    "text" : "QTY",
+                    "top_xy" : [ 
+                        501, 
+                        196
+                    ],
+                    "bottom_xy" : [ 
+                        32, 
+                        68
+                    ]
+                },
+                "1 2" : {
+                    "row_id" : 1,
+                    "column_id" : 2,
+                    "score" : 99,
+                    "coord" : [ 
+                        501, 
+                        756, 
+                        533, 
+                        855
+                    ],
+                    "text" : "EXTENDED",
+                    "top_xy" : [ 
+                        501, 
+                        756
+                    ],
+                    "bottom_xy" : [ 
+                        32, 
+                        99
+                    ]
+                },
+                "1 3" : {
+                    "row_id" : 1,
+                    "column_id" : 3,
+                    "score" : 99,
+                    "coord" : [ 
+                        501, 
+                        670, 
+                        533, 
+                        755
+                    ],
+                    "text" : "UNIT PRICE",
+                    "top_xy" : [ 
+                        501, 
+                        670
+                    ],
+                    "bottom_xy" : [ 
+                        32, 
+                        85
+                    ]
+                },
+                "1 4" : {
+                    "row_id" : 1,
+                    "column_id" : 4,
+                    "score" : 99,
+                    "coord" : [ 
+                        501, 
+                        257, 
+                        533, 
+                        552
+                    ],
+                    "text" : "DESCRIPTION",
+                    "top_xy" : [ 
+                        501, 
+                        257
+                    ],
+                    "bottom_xy" : [ 
+                        32, 
+                        295
+                    ]
+                }
+            },
+            "line_items" : {
+                "2 1" : {
+                    "row_id" : 2,
+                    "column_id" : 1,
+                    "score" : 99,
+                    "coord" : [ 
+                        542, 
+                        196, 
+                        632, 
+                        264
+                    ],
+                    "text" : "5 56",
+                    "top_xy" : [ 
+                        542, 
+                        196
+                    ],
+                    "bottom_xy" : [ 
+                        90, 
+                        68
+                    ]
+                },
+                "2 2" : {
+                    "row_id" : 2,
+                    "column_id" : 2,
+                    "score" : 99,
+                    "coord" : [ 
+                        542, 
+                        756, 
+                        632, 
+                        855
+                    ],
+                    "text" : "36 70 13 75 319 76 3",
+                    "top_xy" : [ 
+                        542, 
+                        756
+                    ],
+                    "bottom_xy" : [ 
+                        90, 
+                        99
+                    ]
+                },
+                "2 3" : {
+                    "row_id" : 2,
+                    "column_id" : 3,
+                    "score" : 99,
+                    "coord" : [ 
+                        542, 
+                        670, 
+                        632, 
+                        755
+                    ],
+                    "text" : "7 34000 2 75000 5 71000 1210 31000",
+                    "top_xy" : [ 
+                        542, 
+                        670
+                    ],
+                    "bottom_xy" : [ 
+                        90, 
+                        85
+                    ]
+                },
+                "2 4" : {
+                    "row_id" : 2,
+                    "column_id" : 4,
+                    "score" : 99,
+                    "coord" : [ 
+                        542, 
+                        257, 
+                        632, 
+                        552
+                    ],
+                    "text" : "5 3517267C2-H Bracket Roof Faring LH 303593610 - 1 207402 Packaging Charge - 5 000 2 750000000 5 3578506C1-D Bracket, Front Bumper Support Assist RH 303592528 - 1 209901 ES 000 A 310000000 Pookoning Chnrgo",
+                    "top_xy" : [ 
+                        542, 
+                        257
+                    ],
+                    "bottom_xy" : [ 
+                        90, 
+                        295
+                    ]
+                },
+                "3 1" : {
+                    "row_id" : 3,
+                    "column_id" : 1,
+                    "score" : 99,
+                    "coord" : [ 
+                        567, 
+                        196, 
+                        773, 
+                        264
+                    ],
+                    "text" : "56 10 300 34",
+                    "top_xy" : [ 
+                        567, 
+                        196
+                    ],
+                    "bottom_xy" : [ 
+                        206, 
+                        68
+                    ]
+                },
+                "3 2" : {
+                    "row_id" : 3,
+                    "column_id" : 2,
+                    "score" : 99,
+                    "coord" : [ 
+                        567, 
+                        756, 
+                        773, 
+                        855
+                    ],
+                    "text" : "13 75 319 76 73 36 441 10 30 30 1 779 00 480 00- 335 24",
+                    "top_xy" : [ 
+                        567, 
+                        756
+                    ],
+                    "bottom_xy" : [ 
+                        206, 
+                        99
+                    ]
+                },
+                "3 3" : {
+                    "row_id" : 3,
+                    "column_id" : 3,
+                    "score" : 99,
+                    "coord" : [ 
+                        567, 
+                        670, 
+                        773, 
+                        755
+                    ],
+                    "text" : "2 75000 5 71000 1 31000 44 11000 3 03000 5 93000 1 60000 9 86000",
+                    "top_xy" : [ 
+                        567, 
+                        670
+                    ],
+                    "bottom_xy" : [ 
+                        206, 
+                        85
+                    ]
+                },
+                "3 4" : {
+                    "row_id" : 3,
+                    "column_id" : 4,
+                    "score" : 99,
+                    "coord" : [ 
+                        567, 
+                        257, 
+                        773, 
+                        552
+                    ],
+                    "text" : "Packaging Charge - 5 000 2 750000000 S 3578506C1-D Bracket, Front Bumper Support Assist RH 303592528 - 1 209901 Packaging Charge - 56 000 1 310000000 O 2011933C2-E Crossmember, Spg Air Mtg Assy 303588258 - 1 211700 Packaging Charge - 10 000 3 030000000 0 1840135C2-B Stiffener - Oil Pan Raii 303603689 - 1 220700 Packaging Charge - 300 000 1 600000000 3610584C2-C Channel, Fuel Tank 303595367 -1 221300",
+                    "top_xy" : [ 
+                        567, 
+                        257
+                    ],
+                    "bottom_xy" : [ 
+                        206, 
+                        295
+                    ]
+                },
+                "4 1" : {
+                    "row_id" : 4,
+                    "column_id" : 1,
+                    "score" : 99,
+                    "coord" : [ 
+                        598, 
+                        196, 
+                        650, 
+                        264
+                    ],
+                    "text" : "10",
+                    "top_xy" : [ 
+                        598, 
+                        196
+                    ],
+                    "bottom_xy" : [ 
+                        52, 
+                        68
+                    ]
+                },
+                "4 2" : {
+                    "row_id" : 4,
+                    "column_id" : 2,
+                    "score" : 99,
+                    "coord" : [ 
+                        598, 
+                        756, 
+                        650, 
+                        855
+                    ],
+                    "text" : "73 36 d41 10",
+                    "top_xy" : [ 
+                        598, 
+                        756
+                    ],
+                    "bottom_xy" : [ 
+                        52, 
+                        99
+                    ]
+                },
+                "4 3" : {
+                    "row_id" : 4,
+                    "column_id" : 3,
+                    "score" : 99,
+                    "coord" : [ 
+                        598, 
+                        670, 
+                        650, 
+                        755
+                    ],
+                    "text" : "1 31000 14 1100",
+                    "top_xy" : [ 
+                        598, 
+                        670
+                    ],
+                    "bottom_xy" : [ 
+                        52, 
+                        85
+                    ]
+                },
+                "4 4" : {
+                    "row_id" : 4,
+                    "column_id" : 4,
+                    "score" : 99,
+                    "coord" : [ 
+                        598, 
+                        257, 
+                        650, 
+                        552
+                    ],
+                    "text" : "303592528 - 1 209901 Packaging Charge - 56 000 1 310000000 12011933c2-E Croeemember Sng Air Mta Apey",
+                    "top_xy" : [ 
+                        598, 
+                        257
+                    ],
+                    "bottom_xy" : [ 
+                        52, 
+                        295
+                    ]
+                },
+                "5 1" : {
+                    "row_id" : 5,
+                    "column_id" : 1,
+                    "score" : 99,
+                    "coord" : [ 
+                        632, 
+                        196, 
+                        690, 
+                        264
+                    ],
+                    "text" : "10",
+                    "top_xy" : [ 
+                        632, 
+                        196
+                    ],
+                    "bottom_xy" : [ 
+                        58, 
+                        68
+                    ]
+                },
+                "5 2" : {
+                    "row_id" : 5,
+                    "column_id" : 2,
+                    "score" : 99,
+                    "coord" : [ 
+                        632, 
+                        756, 
+                        690, 
+                        855
+                    ],
+                    "text" : "441 10 30 30",
+                    "top_xy" : [ 
+                        632, 
+                        756
+                    ],
+                    "bottom_xy" : [ 
+                        58, 
+                        99
+                    ]
+                },
+                "5 3" : {
+                    "row_id" : 5,
+                    "column_id" : 3,
+                    "score" : 99,
+                    "coord" : [ 
+                        632, 
+                        670, 
+                        690, 
+                        755
+                    ],
+                    "text" : "44 11000 3 03000",
+                    "top_xy" : [ 
+                        632, 
+                        670
+                    ],
+                    "bottom_xy" : [ 
+                        58, 
+                        85
+                    ]
+                },
+                "5 4" : {
+                    "row_id" : 5,
+                    "column_id" : 4,
+                    "score" : 99,
+                    "coord" : [ 
+                        632, 
+                        257, 
+                        690, 
+                        552
+                    ],
+                    "text" : "O 2011933C2-E Crossmember, Spg Air Mtg Assy 303588258 - 1 211700 Packaging Charge - 10 000 3 030000000",
+                    "top_xy" : [ 
+                        632, 
+                        257
+                    ],
+                    "bottom_xy" : [ 
+                        58, 
+                        295
+                    ]
+                },
+                "6 1" : {
+                    "row_id" : 6,
+                    "column_id" : 1,
+                    "score" : 99,
+                    "coord" : [ 
+                        661, 
+                        196, 
+                        726, 
+                        264
+                    ],
+                    "text" : "300",
+                    "top_xy" : [ 
+                        661, 
+                        196
+                    ],
+                    "bottom_xy" : [ 
+                        65, 
+                        68
+                    ]
+                },
+                "6 2" : {
+                    "row_id" : 6,
+                    "column_id" : 2,
+                    "score" : 99,
+                    "coord" : [ 
+                        661, 
+                        756, 
+                        726, 
+                        855
+                    ],
+                    "text" : "30 30 1,779 00",
+                    "top_xy" : [ 
+                        661, 
+                        756
+                    ],
+                    "bottom_xy" : [ 
+                        65, 
+                        99
+                    ]
+                },
+                "6 3" : {
+                    "row_id" : 6,
+                    "column_id" : 3,
+                    "score" : 99,
+                    "coord" : [ 
+                        661, 
+                        670, 
+                        726, 
+                        755
+                    ],
+                    "text" : "3 03000 5 93000",
+                    "top_xy" : [ 
+                        661, 
+                        670
+                    ],
+                    "bottom_xy" : [ 
+                        65, 
+                        85
+                    ]
+                },
+                "6 4" : {
+                    "row_id" : 6,
+                    "column_id" : 4,
+                    "score" : 99,
+                    "coord" : [ 
+                        661, 
+                        257, 
+                        726, 
+                        552
+                    ],
+                    "text" : "303588258 - 1 211700 Packaging Charge - 10 000 3 030000000 0 1840135C2-B Stiffener - Oil Pan Raii 303603689 - 1 220700",
+                    "top_xy" : [ 
+                        661, 
+                        257
+                    ],
+                    "bottom_xy" : [ 
+                        65, 
+                        295
+                    ]
+                },
+                "7 1" : {
+                    "row_id" : 7,
+                    "column_id" : 1,
+                    "score" : 99,
+                    "coord" : [ 
+                        713, 
+                        196, 
+                        772, 
+                        264
+                    ],
+                    "text" : "34",
+                    "top_xy" : [ 
+                        713, 
+                        196
+                    ],
+                    "bottom_xy" : [ 
+                        59, 
+                        68
+                    ]
+                },
+                "7 2" : {
+                    "row_id" : 7,
+                    "column_id" : 2,
+                    "score" : 99,
+                    "coord" : [ 
+                        713, 
+                        756, 
+                        772, 
+                        855
+                    ],
+                    "text" : "480 00- 335 24",
+                    "top_xy" : [ 
+                        713, 
+                        756
+                    ],
+                    "bottom_xy" : [ 
+                        59, 
+                        99
+                    ]
+                },
+                "7 3" : {
+                    "row_id" : 7,
+                    "column_id" : 3,
+                    "score" : 99,
+                    "coord" : [ 
+                        713, 
+                        670, 
+                        772, 
+                        755
+                    ],
+                    "text" : "1 60000 9 86000",
+                    "top_xy" : [ 
+                        713, 
+                        670
+                    ],
+                    "bottom_xy" : [ 
+                        59, 
+                        85
+                    ]
+                },
+                "7 4" : {
+                    "row_id" : 7,
+                    "column_id" : 4,
+                    "score" : 99,
+                    "coord" : [ 
+                        713, 
+                        257, 
+                        772, 
+                        552
+                    ],
+                    "text" : "303603689 - 1 220700 Packaging Charge - 300 000 1 600000000 3610584C2-C Channel, Fuel T nk 303595367 -1 221300",
+                    "top_xy" : [ 
+                        713, 
+                        257
+                    ],
+                    "bottom_xy" : [ 
+                        59, 
+                        295
+                    ]
+                },
+                "8 1" : {
+                    "row_id" : 8,
+                    "column_id" : 1,
+                    "score" : 99,
+                    "coord" : [ 
+                        737, 
+                        196, 
+                        832, 
+                        264
+                    ],
+                    "text" : "34 10",
+                    "top_xy" : [ 
+                        737, 
+                        196
+                    ],
+                    "bottom_xy" : [ 
+                        95, 
+                        68
+                    ]
+                },
+                "8 2" : {
+                    "row_id" : 8,
+                    "column_id" : 2,
+                    "score" : 99,
+                    "coord" : [ 
+                        737, 
+                        756, 
+                        832, 
+                        855
+                    ],
+                    "text" : "335 24 17 00 76 50",
+                    "top_xy" : [ 
+                        737, 
+                        756
+                    ],
+                    "bottom_xy" : [ 
+                        95, 
+                        99
+                    ]
+                },
+                "8 3" : {
+                    "row_id" : 8,
+                    "column_id" : 3,
+                    "score" : 99,
+                    "coord" : [ 
+                        737, 
+                        670, 
+                        832, 
+                        755
+                    ],
+                    "text" : "9 86000 0 50000 7 65000",
+                    "top_xy" : [ 
+                        737, 
+                        670
+                    ],
+                    "bottom_xy" : [ 
+                        95, 
+                        85
+                    ]
+                },
+                "8 4" : {
+                    "row_id" : 8,
+                    "column_id" : 4,
+                    "score" : 99,
+                    "coord" : [ 
+                        737, 
+                        257, 
+                        832, 
+                        552
+                    ],
+                    "text" : "3610584C2-C Channel, Fuel T nk 303595367 -1 221300 Packaging Charge - 34 000 0 500000D00 0 3512452C1-G Rail, Roof Header 303653394 - 1 255700",
+                    "top_xy" : [ 
+                        737, 
+                        257
+                    ],
+                    "bottom_xy" : [ 
+                        95, 
+                        295
+                    ]
+                }
+            }
+        }
+    },
+    "category" : "inbox",
+    "created_date_time" : "2021-02-16 09:34:11.474674",
+    "updated_date_time" : "2021-02-16 09:35:11.548372"
+}
